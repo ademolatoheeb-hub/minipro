@@ -38,6 +38,7 @@
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import Card from "./components/Card";
+import Form from "./components/Form";
 import "./App.css";
 
 function App() {
@@ -51,7 +52,8 @@ function App() {
         <Card title="Reusable Components" img="https://picsum.photos/200/200?2" />
         <Card title="Modern UI" img="https://picsum.photos/200/200?3" />
       </div>
-    </>
+      <Form />
+      </>
   );
 }
 
